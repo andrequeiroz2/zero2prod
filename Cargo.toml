@@ -17,6 +17,7 @@ name = "zero2prod"
 
 
 [dependencies]
+serde-aux = "4"
 tracing-actix-web = "0.7.14"
 secrecy = { version = "0.8", features = ["serde"]}
 actix-web = "4.9.0"
